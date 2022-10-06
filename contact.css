@@ -1,0 +1,173 @@
+@importurl('https://fonts.googleapis.com/css?family=Montserrat:600|Noto+Sans|Open+Sans:400,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+  justify-content: center;
+  background: url(fp.jpg);
+  background-size: cover;
+  background-position: center;
+  padding:70px 30px;
+}
+
+.container {
+ 
+  width: 380px;
+  height: 500px;
+  background:rgba(82, 79, 79, 0);;
+  color:rgb(21, 20, 20);
+  top:50%;
+  left:50%;
+  position:absolute;
+  transform: translate(-50%,-50%);
+  box-sizing:boader-box;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+h1{
+  margin:3;
+  padding:0 0 20px;
+  text-align:center;
+  font-size:25px;
+  font-weight:bold ;
+}  font color::marker
+
+
+.ccheader {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+}
+
+.ccheader h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1.3;
+}
+.ccheader {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+}
+
+.ccheader h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1.3;
+}
+
+/* Form CSS*/
+.ccform {
+   margin: 0 auto;
+    width: 800px;
+}
+.ccfield-prepend{
+	margin-bottom:10px;
+	width:100%;
+}
+
+.ccform-addon{
+	color:#c17305; 
+	float:left;
+	padding:8px;
+	width:8%;
+	background:#FFFFFF;
+	text-align:center;	
+}
+
+.ccformfield {
+	color:#0f0f10; 
+	background:#FFFFFF;
+	border:none;
+	padding:15.5px;
+	width:91.9%;
+	display:block;
+	font-family: 'Lato',Arial,sans-serif;
+	font-size:14px;input:focus
+  
+
+}
+
+.ccformfield {
+	font-family: 'Lato',Arial,sans-serif;
+}
+.ccbtn{
+	display:block;
+	border:none;
+	background:#fba328;
+	color:#FFFFFF;
+	padding:12px 25px;
+	cursor:pointer;
+	text-decoration:none;
+	font-weight:bold;
+}
+.ccbtn:hover{
+	background:#d8850e;
+
+}
+.credit {
+  color:#fff;
+  width: 800px;
+  clear:both;
+margin:0 auto;
+  line-height:25px;
+ padding: 25px 50px; 
+}
+.credit em{
+margin-right:5px;
+}
+.credit a {
+color: #0d2ed5;
+font-weight: bold;
+text-decoration: none;
+}
+.message{
+	width: 50%;
+	position: relative;
+	margin-bottom: 60px ;
+	display: flex;
+	justify-content: left;
+
+}
+.message .success{
+	font-size: 10px; 
+	color: aquamarine;
+	position: absolute;
+	animation: button .3s linear;
+	display: none;
+
+}
+.message .danger{
+	font-size: 10px; 
+	color: rgb(171, 28, 28);
+	position: absolute;
+	transform: 3s;
+	animation: button .3s linear;
+	display: none;
+}
+@keyframes buttons{
+	0%{
+		transform: scale(0,1);	
+		
+	  }
+	50%{
+		transform: scale(0,5);	
+		
+	  }
+	100%{
+		transform: scale(1);	
+		
+	  }  
+	
+}
