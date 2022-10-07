@@ -1,0 +1,13 @@
+<a href="viewusers.jsp">View All Records</a><br/>
+
+<h1>Add New User</h1>
+<form action="adduser.jsp" method="post">
+<table>
+<tr><td>Flight ID:</td><td><input type="text" name="FlightID"/></td></tr>
+<tr><td>ticket ID:</td><td><input type="text" name="tickettID"/></td></tr>
+<tr><td>Airline Service:</td><td><input type="text" name="AirlineService"/></td></tr>
+<tr><td>Time:</td><td><input type="text" name="Time"/></td></tr>
+<tr><td>Price:</td><td><input type="text" name="Price"/></td></tr>
+<tr><td colspan="2"><input type="submit" value="Add User"/></td></tr>
+</table>
+</form>
