@@ -11,7 +11,7 @@ html{
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient( rgba(6, 15, 46, 0.7),rgba(29, 37, 33, 0.7)),url(airplane.jpg);
+    background-image: linear-gradient( rgba(6, 15, 46, 0.7),rgba(29, 37, 33, 0.7)),url(images/airplane.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -39,7 +39,7 @@ nav img{
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 38px;
+    font-size: 20px;
 }
 
 .nav-links ul li::after{
@@ -66,13 +66,13 @@ nav img{
     text-align:center;  
 }
 .text-box h1{
-    font-size: 100px;
+    font-size: 50px;
 }
 
 
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 40px; 
+    font-size: 30px; 
     color: rgb(255, 255, 255);
 }
 
