@@ -1,0 +1,17 @@
+<a href="viewusers.jsp">View All Records</a><br/>
+
+<h1>Add New User</h1>
+<form action="adduser.jsp" method="post">
+<table>
+<tr><td>First Name:</td><td><input type="text" name="FirstName"/></td></tr>
+<tr><td>Last Name:</td><td><input type="text" name="LastName"/></td></tr>
+<tr><td>ID Card Number:</td><td><input type="text" name="IDCardNumber"/></td></tr>
+<tr><td>User Name:</td><td><input type="text" name="UserName"/></td></tr>
+<tr><td>Email:</td><td><input type="email" name="email"/></td></tr>
+<tr><td>Password:</td><td><input type="password" name="password"/></td></tr>
+<tr><td>Confirm Password:</td><td><input type="Password" name="ConfirmPassword"/></td></tr>
+<tr><td>Phone Number:</td><td><input type="text" name="PhoneNumber"/></td></tr>
+<tr><td>Address:</td><td><input type="text" name="Address"/></td></tr>
+<tr><td colspan="2"><input type="submit" value="Add User"/></td></tr>
+</table>
+</form>
